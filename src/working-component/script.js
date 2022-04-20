@@ -1,5 +1,5 @@
 export default {
-    name  : 'my-component',
+    name  : 'working-component',
     props : {
         disabled : Boolean
     }

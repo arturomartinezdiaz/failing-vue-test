@@ -1,0 +1,8 @@
+/* istanbul ignore file */
+import FailingComponent from '@/failing-component';
+
+describe('FailingComponent', () =>
+{
+    const { name = '' } = FailingComponent;
+    it('Name is "failing-component"', () => expect(name).toBe('failing-component'));
+});

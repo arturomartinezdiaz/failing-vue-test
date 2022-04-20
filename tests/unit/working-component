@@ -1,0 +1,8 @@
+/* istanbul ignore file */
+import WorkingComponent from '@/working-component';
+
+describe('WorkingComponent', () =>
+{
+    const { name = '' } = WorkingComponent;
+    it('Name is "working-component"', () => expect(name).toBe('working-component'));
+});
