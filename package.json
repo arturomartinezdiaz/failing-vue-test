@@ -1,6 +1,7 @@
 {
     "name": "failing-vuest-jest",
     "version": "0.1.0",
+    "description": "Shows an error parsing pug/jade vue components",
     "devDependencies": {
         "@babel/core": "^7.17.9",
         "@babel/plugin-proposal-class-properties": "^7.16.7",
